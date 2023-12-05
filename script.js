@@ -32,15 +32,15 @@ var t1 = new gsap.timeline({
 })
 
 t1.to("#fanta",{
-    y:"190%",
-    x:"-100%",
+    y:"165%",
+    x:"-160%",
     scale:.8
 },'a')
 
 t1.to("#cut-orange",{
-    y:"500%",
-    x:"-88%",
-    scale:1.3
+    y:"320%",
+    x:"-198%",
+    scale:1.2
 },'a')
 
 
@@ -56,13 +56,13 @@ var t2 = new gsap.timeline({
 })
 
 t2.to("#fanta",{
-    y:"420%",
-    x:"5%",
-    scale:.7
+    y:"347%",
+    x:"-15%",
+    scale:.95
 },'a')
 
 t2.to("#page3-cut-orange2",{
-    y:"-67%",
-    x:"74%",
-    scale:.29,
+    y:"-80%",
+    x:"162%",
+    scale:.5,
 },'a')
