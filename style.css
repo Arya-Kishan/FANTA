@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    height: 50px;
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#nav-part-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 2px 10px;
+}
+
+#circle {
+    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+/* ------------------------------------------ */
+
+.page {
+    height: 100vh;
+    width: 100%;
+    border: 2px solid green;
+}
+
+#page1 {
+    position: relative;
+    background-color: orange;
+}
+
+#page1 h1{
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}
+
+#fanta {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index: 2;
+    width: 25%;
+    z-index: 2;
+}
+
+#orange {
+    width: 23%;
+    z-index: 3;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -30%);
+    z-index: 2;
+}
+
+#cut-orange {
+    width: 18%;
+    z-index: 0;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -30%);
+    z-index: 2;
+}
+
+#leaf1 {
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    transform: translate(-50%, -30%);
+    z-index: 2;
+}
+
+#leaf2 {
+    width: 16%;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -30%);
+    z-index: 2;
+}
+
+#leaf3 {
+    width: 16%;
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    /* transform: translate(-50%, -30%); */
+    z-index: 2;
+}
+#leaf4 {
+    width: 23%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    /* transform: translate(-50%, -30%); */
+    z-index: 2;
+}
+
+/* #leaf5 {
+    width: 16%;
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    transform: translate(-50%, -30%);
+    z-index: 2;
+} */
+
+
+
+
+/* ----------------------------------------------- */
+
+#page2 {
+    position: relative;
+    background-color: rgb(136, 255, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+#page2-left{
+    position: relative;
+    border: 2px solid white;
+    height: 60vh;
+    width: 40vh;
+}
+
+#blob{
+    width: 70%;
+    position: absolute;
+    transform: rotate(-30deg) skewY(20deg);
+    left: 15%;
+    bottom: 10%;
+    
+}
+
+#page2-right{
+    border: 2px solid white;
+    height: 60vh;
+    width: 40vh;
+    padding: 10%;
+}
+
+button{
+    width: 100%;
+    border: transparent;
+    padding: 5px;
+    margin-top: 10%;
+}
+
+
+
+/* ------------------------------------------------------ */
+
+#page3{
+    background-color: aqua;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#page3 div{
+    position: relative;
+    background-color: rgb(0, 221, 255);
+    width: 30%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3 span{
+    color: orangered;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
+
+.page3-img1{
+    width: 50%;
+    height: 60%;
+    z-index: 2;
+}
+
+.page3-cut-orange{
+    position: absolute;
+    width: 70%;
+    top: 5%;
+    z-index: 1;
+}
+
+#page3-cut-orange2{
+    position: absolute;
+    top: 50%;
+    left: -250%;
+    z-index: 1 !important;
+    scale: .3;
+}
